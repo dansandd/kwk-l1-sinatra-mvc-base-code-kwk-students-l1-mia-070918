@@ -3,7 +3,7 @@ Bundler.require
 
 class MyApp < Sinatra::Base
   get "/" do #when u run shotgun and copy paste the server number this will show
-    return erb:index
+    return erb :index
   end
 
   post "/"do 
