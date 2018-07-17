@@ -18,7 +18,4 @@ class MyApp < Sinatra::Base
   # get "/folder" do
   # return erb:index #telling sinatra go to file named index 
   # end
-  
- 
-  end
 end
