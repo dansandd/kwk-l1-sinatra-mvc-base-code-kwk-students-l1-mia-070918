@@ -7,6 +7,7 @@ class MyApp < Sinatra::Base
   end
 
   post "/"do 
+    @name
     return erb:results
   end
   
