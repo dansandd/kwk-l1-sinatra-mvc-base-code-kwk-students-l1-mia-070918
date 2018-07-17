@@ -6,7 +6,7 @@ class MyApp < Sinatra::Base
     return erb :index
   end
 
-  post "/"do 
+  post "/" do 
     @name = params[:user]
     return erb :results
   end
