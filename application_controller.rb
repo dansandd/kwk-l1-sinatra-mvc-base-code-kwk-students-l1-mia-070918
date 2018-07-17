@@ -1,4 +1,5 @@
 require 'bundler'
+require "./models/model" 
 Bundler.require
 
 class MyApp < Sinatra::Base
