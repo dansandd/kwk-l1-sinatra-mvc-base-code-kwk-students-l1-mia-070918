@@ -8,8 +8,10 @@ class MyApp < Sinatra::Base
 
   post "/" do 
     @name = params[:user]
+    @fortune = get_fortune #method made in model.rb
     return erb :results
   end
+  
   
   # get "/video" do #if u put /video to your server it will show page2
   #   "page2"
