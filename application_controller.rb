@@ -7,7 +7,7 @@ class MyApp < Sinatra::Base
   end
 
   post "/"do 
-    @name
+    @name = params[:user]
     return erb:results
   end
   
