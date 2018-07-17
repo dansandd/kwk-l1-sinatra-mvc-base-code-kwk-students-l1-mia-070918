@@ -8,7 +8,7 @@ class MyApp < Sinatra::Base
 
   post "/"do 
     @name = params[:user]
-    return erb:results
+    return erb :results
   end
   
   # get "/video" do #if u put /video to your server it will show page2
